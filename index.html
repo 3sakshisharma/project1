@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- Swiper js -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>House price prediction</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header" id="header">
+      <div class="navigation">
+        <div class="nav-center container d-flex">
+          <a href="/" class="logo"><h1>Rentiz</h1></a>
+
+          <ul class="nav-list d-flex">
+            <li class="nav-item">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="product.html" class="nav-link">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a href="#terms" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+              <p></p>
+            </li>
+          </ul>
+
+          <div class="hamburger">
+            <i class="bx bx-menu-alt-left"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero">
+        <div class="swiper-container heroslider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="https://www.pixelstalk.net/wp-content/uploads/images1/Inspire_motivation-wallpaper.jpg">          
+              </div>
+            <div class="swiper-slide">
+              <img src="https://www.homedecorideas.eu/wp-content/uploads/2019/11/Living-In-The-Clouds-A-Modern-New-York-Apartment-1.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/home-improvement/wp-content/uploads/2022/07/download-23.jpg" alt="" />
+            </div>
+           
+          </div>
+          <div class="swiper-button-next">
+            <i class="bx bx-chevron-right swiper-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="bx bx-chevron-left swiper-icon"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <h1>Find your dream home</h1>
+        <div class="search">
+         
+          <form id="predictionForm">
+            <label for="size">Size (sq ft):</label>
+            <input type="number" id="size" name="size" required>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required>
+
+            <label for="bedrooms">Number of Bedrooms:</label>
+            <input type="number" id="bedrooms" name="bedrooms" required>
+
+            <button type="submit">Predict Price</button>
+        </form>
+        </div>
+      </div>
+    </header>
+
+    
+             
+        
+    <section class="section rent">
+        <div class="title">
+          <h1>All Listing</h1>
+        </div>
+  
+        <div class="rent-center container">
+            <div class="box">
+              <div class="top">
+                <div class="overlay">
+                  <img src="https://wallup.net/wp-content/uploads/2019/09/977995-mansion-house-architecture-luxury-building-design.jpg" alt="" />
+                </div>
+
+              <div class="pos">
+                <span>FEATURED</span>
+                <span>BUY</span>
+              </div>
+            </div>
+            <div class="bottom">
+              <p>Modern home  and appartments</p>
+              <div>
+                <span>$700</span>
+                <span><i class="far fa-eye"></i></span>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="top">
+              <div class="overlay">
+                <img src="https://www.thespruce.com/thmb/QeB-IPpXBpEnmPAfNQ7xXOxHnVQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Have-it-all-studio-apartment-587e9d153df78c17b6d4f076.jpg" alt="" />
+              </div>
+              <div class="pos">
+                <span>FEATURED</span>
+                <span>BUY</span>
+              </div>
+            </div>
+            <div class="bottom">
+              <p>Modern  home and appartments</p>
+              <div>
+                <span>$700</span>
+                <span><i class="far fa-eye"></i></span>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="top">
+              <div class="overlay">
+                <img src="https://i.pinimg.com/originals/86/20/21/86202147302f760b69a3592a94118de0.jpg" alt="" />
+              </div>
+              <div class="pos">
+                <span>FEATURED</span>
+                <span>BUY</span>
+              </div>
+            </div>
+            <div class="bottom">
+              <p>Modern home and appartments</p>
+              <div>
+                <span>$700</span>
+                <span><i class="far fa-eye"></i></span>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="top">
+              <div class="overlay">
+                <img src="https://housesforrentinfo.com/wp-content/uploads/2018/08/Nice-Apartments.jpg" alt="" />
+              </div>
+              <div class="pos">
+                <span>FEATURED</span>
+                <span>BUY</span>
+              </div>
+            </div>
+            <div class="bottom">
+              <p>Modern home and appartments</p>
+              <div>
+                <span>$700</span>
+                <span><i class="far fa-eye"></i></span>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="top">
+              <div class="overlay">
+                <img src="https://4.bp.blogspot.com/-XiTGUeurxvc/VGCbf2GytUI/AAAAAAAAqn0/NoBc_QUYlLs/s1600/modern-flat-roof.jpg" alt="" />
+              </div>
+              <div class="pos">
+                <span>FEATURED</span>
+                <span>BUY</span>
+              </div>
+            </div>
+            <div class="bottom">
+              <p>Modern home and appartments</p>
+              <div>
+                <span>$700</span>
+                <span><i class="far fa-eye"></i></span>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="top">
+              <div class="overlay">
+                <img src="https://propquest.in/wp-content/uploads/2020/07/DLF-Magnolias-Gurgaon-8.jpg" alt="" />
+              </div>
+              <div class="pos">
+                <span>FEATURED</span>
+                <span>BUY</span>
+              </div>
+            </div>
+            <div class="bottom">
+              <p>Modern home and appartments</p>
+              <div>
+                <span>$700</span>
+                <span><i class="far fa-eye"></i></span>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="top">
+              <div class="overlay">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.cK_V8uBS5A5-Vd8f74nQwQHaEo&pid=Api&P=0&h=180" alt="" />
+              </div>
+              <div class="pos">
+                <span>FEATURED</span>
+                <span>BUY</span>
+              </div>
+            </div>
+            <div class="bottom">
+              <p>Modern home and appartments</p>
+              <div>
+                <span>$700</span>
+                <span><i class="far fa-eye"></i></span>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="top">
+              <div class="overlay">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.wVOI8ZnBH8cfJn-BbxDcawHaEK&pid=Api&P=0&h=180" alt="" />
+              </div>
+              <div class="pos">
+                <span>FEATURED</span>
+                <span>BUY</span>
+              </div>
+            </div>
+            <div class="bottom">
+              <p>Modern home and appartments</p>
+              <div>
+                <span>$700</span>
+                <span><i class="far fa-eye"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+   
+    <!-- Contact -->
+    <section class="section contact">
+      <div class="row">
+        <div class="col">
+          <h2>EXCELLENT SUPPORT</h2>
+          <p>
+            We love our customers and they can reach us any time of day we will
+            be at your service 24/7
+          </p>
+          <a href="" class="btn btn-1">Contact</a>
+          <img src="https://www.pixelstalk.net/wp-content/uploaages1/Inspire_motivation-wallpaper.jpg" alt="">
+        </div>
+        <div class="col">
+          <form action="">
+            <div>
+              <input type="email" placeholder="Email Address" />
+              <a href="">Send</a>
+             
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section rent">
+      <div class="title">
+        <h1>Discover Our Featured Listings</h1>
+        <p>
+          These featured listings contain exclusive real estate opportunities
+          within the city
+        </p>
+      </div>
+
+      <div class="rent-center container">
+        <div class="box">
+          <div class="top">
+            <div class="overlay">
+              <img src="https://yesofcorsa.com/wp-content/uploads/2017/08/House-Photo-Free.jpg" alt="" />
+            </div>
+            <div class="pos">
+              <span>FEATURED</span>
+              <span>BUY</span>
+            </div>
+          </div>
+          <div class="bottom">
+            <p>Modern home  and appartments</p>
+            <div>
+              <span>$700</span>
+              <span><i class="far fa-eye"></i></span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="top">
+            <div class="overlay">
+              <img src="https://images.unsplash.com/photo-1576941089067-2de3c901e126?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max" alt="" />
+            </div>
+            <div class="pos">
+              <span>FEATURED</span>
+              <span>BUY</span>
+            </div>
+          </div>
+          <div class="bottom">
+            <p>Modern home and appartments</p>
+            <div>
+              <span>$700</span>
+              <span><i class="far fa-eye"></i></span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="top">
+            <div class="overlay">
+              <img src="https://images5.alphacoders.com/343/thumb-1920-343728.jpg" alt="" />
+            </div>
+            <div class="pos">
+              <span>FEATURED</span>
+              <span>BUY</span>
+            </div>
+          </div>
+          <div class="bottom">
+            <p>Modern home and appartments</p>
+            <div>
+              <span>$700</span>
+              <span><i class="far fa-eye"></i></span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="top">
+            <div class="overlay">
+              <img src="http://www.gwinnettforum.com/wp-content/uploads/2015/03/15.0320.Viewsinside.jpg" alt="" />
+            </div>
+            <div class="pos">
+              <span>FEATURED</span>
+              <span>BUY</span>
+            </div>
+          </div>
+          <div class="bottom">
+            <p>Modern home and appartments</p>
+            <div>
+              <span>$700</span>
+              <span><i class="far fa-eye"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="row">
+        <div class="col d-flex">
+          <h4>INFORMATION</h4>
+          <a href="">About us</a>
+          <a href="">Contact Us</a>
+          <a href="">Term & Conditions</a>
+          <a href="">Shipping Guide</a>
+        </div>
+        <div class="col d-flex">
+          <h4>USEFUL LINK</h4>
+          <a href="">Online Store</a>
+          <a href="">Customer Services</a>
+          <a href="">Promotion</a>
+          <a href="">Top Brands</a>
+        </div>
+        <div class="col d-flex">
+          <span><i class="bx bxl-facebook-square"></i></span>
+          <span><i class="bx bxl-instagram-alt"></i></span>
+          <span><i class="bx bxl-github"></i></span>
+          <span><i class="bx bxl-twitter"></i></span>
+          <span><i class="bx bxl-pinterest"></i></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="./js/slider.js"></script>
+  <script src="./js/index.js"></script>
+</html>
